@@ -1,8 +1,10 @@
-# React + Vite
+# 最初にすること
+npm i
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 立ち上げ
+npm run dev
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 新しいコンポーネントの作り方
+1. componentsフォルダに新しいファイルを作る
+2. setting.jsxにルーティングを追加する
+3. ExampleBtn.jsxなどを参考にそれを表示する枠のコンポーネントと部品のコンポーネントを作る
